@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="container-calc">
+            <div class="display" id="display" value="0">
+            <div id="valorAnterior" value=0></div>
+            <div id="valorActual" value=0></div>
+            </div>
+            <div class="container-btn">
+                <input type="button" id="sim-AC" value="AC" onclick="simAC()">
+                <input type="button" id="operacion" value="x^n" onclick="operacion('^')">
+                <input type="button" id="operacion" value="%" onclick="operacion('%')">
+                <input type="button" id="operacion" value="/" onclick="operacion('/')">
+                <input type="button" id="num" value="7" onclick="btn(7)">
+                <input type="button" id="num" value="8" onclick="btn(8)">
+                <input type="button" id="num" value="9" onclick="btn(9)">
+                <input type="button" id="operacion" value="*" onclick="operacion('*')">
+                <input type="button" id="num" value="4" onclick="btn(4)">
+                <input type="button" id="num" value="5" onclick="btn(5)">
+                <input type="button" id="num" value="6" onclick="btn(6)">
+                <input type="button" id="operacion" value="-" onclick="operacion('-')">
+                <input type="button" id="num" value="1" onclick="btn(1)">
+                <input type="button" id="num" value="2" onclick="btn(2)">
+                <input type="button" id="num" value="3" onclick="btn(3)">
+                <input type="button" id="operacion" value="+" onclick="operacion('+')">
+                <input type="button" id="num" value="0" onclick="btn(0)">
+                <input type="button" id="sim-coma" value="." onclick="btn('.')">
+                <input type="button" id="sim-borra" value="⬅" onclick="simbarra()">   
+                <input type="button" id="sim-igual" value="✔" onclick="simigual()">
+
+            </div>
+            </div>
+
+        </div>
+    </main>
+<script src="./index.js"></script>
+</body>
+</html>
